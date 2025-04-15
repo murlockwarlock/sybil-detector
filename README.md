@@ -43,3 +43,48 @@ sybil-detector/
     ├── transactions.csv
     ├── token_transfers.csv
     └── dex_swaps.csv
+
+🛠 Install dependencies:
+
+pip install -r requirements.txt
+
+🧠 Train model:
+
+python train.py
+
+🔍 Generate predictions:
+
+python predict.py
+
+
+🧪 Visualize feature importances:
+
+python feature_importance.py
+
+
+🧩 Feature Categories
+TX Features: count, lifespan, ETH volume, chain separation
+
+Token Features: number of unique tokens, direction ratio
+
+Swap Features: volume, diversity, same-token spam detection
+
+Graph Features: neighbors, edge count
+
+Multi-Chain Flag: is wallet active on both Ethereum & Base?
+
+📤 Output Format
+
+ADDRESS,PRED
+0xabc...,0.921
+0xdef...,0.018
+...
+
+
+🙌 Special Thanks
+
+Big thanks to Holonym, Octant, and Ethereum Foundation for supporting decentralized Sybil defense.
+
+Created by: @xlisttop1mmr / @Xlistyara
+
+
