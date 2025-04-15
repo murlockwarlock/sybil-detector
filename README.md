@@ -9,6 +9,10 @@ This repository contains the full solution by [@xlisttop1mmr](https://x.com/xlis
 Detect Sybil wallets among 10,000+ test addresses using historical on-chain data (Ethereum & Base).  
 The model outputs a probability (0 = non-Sybil, 1 = Sybil) for each address.
 
+📁 data/ folder contains private datasets used during training. Not included in the repo.
+
+
+
 ---
 
 ## 🧠 Model Highlights
