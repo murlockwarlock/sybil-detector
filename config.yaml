@@ -1,1 +1,8 @@
-# Placeholder for config.yaml
+seed: 42
+n_splits: 5
+num_boost_round: 1000
+early_stopping_rounds: 50
+learning_rate: 0.03
+max_depth: 8
+subsample: 0.8
+colsample_bytree: 0.8
