@@ -50,20 +50,20 @@ sybil-detector/
 
 🛠 Install dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt
 
 🧠 Train model:
 
-python train.py
+```python train.py
 
 🔍 Generate predictions:
 
-python predict.py
+```python predict.py
 
 
 🧪 Visualize feature importances:
 
-python feature_importance.py
+```python feature_importance.py
 
 
 🧩 Feature Categories
