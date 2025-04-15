@@ -28,7 +28,7 @@ The model outputs a probability (0 = non-Sybil, 1 = Sybil) for each address.
 
 ## 📂 Structure
 
-```bash
+
 sybil-detector/
 ├── config.yaml              # Model config
 ├── features.py              # Feature engineering
