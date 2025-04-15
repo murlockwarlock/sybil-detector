@@ -28,7 +28,7 @@ The model outputs a probability (0 = non-Sybil, 1 = Sybil) for each address.
 
 ## 📂 Structure
 
-
+```bash
 sybil-detector/
 ├── config.yaml              # Model config
 ├── features.py              # Feature engineering
@@ -47,24 +47,31 @@ sybil-detector/
     ├── transactions.csv
     ├── token_transfers.csv
     └── dex_swaps.csv
+```
+Git clone:
+```bash
+git clone https://github.com/murlockwarlock/sybil-detector.git
+cd sybil-detector
+```
+
 
 🛠 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 🧠 Train model:
-
+```bash
 python train.py
-
+```
 🔍 Generate predictions:
-
+```bash
 python predict.py
-
+```
 
 🧪 Visualize feature importances:
-
+```bash
 python feature_importance.py
-
+```
 
 🧩 Feature Categories
 TX Features: count, lifespan, ETH volume, chain separation
