@@ -85,12 +85,12 @@ Graph Features: neighbors, edge count
 Multi-Chain Flag: is wallet active on both Ethereum & Base?
 
 📤 Output Format
-
+```bash
 ADDRESS,PRED
 0xabc...,0.921
 0xdef...,0.018
 ...
-
+```
 
 🙌 Special Thanks
 
