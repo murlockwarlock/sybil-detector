@@ -50,7 +50,8 @@ sybil-detector/
 
 🛠 Install dependencies:
 
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 
 🧠 Train model:
 
